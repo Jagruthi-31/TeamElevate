@@ -107,19 +107,11 @@ Optional, to regenerate the data, retrain and re-evaluate:
 
 ```bash
 python -m src.data_processing     # regenerate simulated dataset
-python -m src.recommendation      # train and save models/recommendation_model.pkl
 python -m src.evaluate            # metrics + confusion matrix
 ```
 
 The repository intentionally omits a version-sensitive serialized model. On first launch, the app trains the recommender from the included CSV and caches it for the session. This avoids loading a pickle created by a different scikit-learn/pandas environment.
 
-## Deploy (Streamlit Community Cloud)
-
-1. Push this repository to GitHub (public).
-2. Go to share.streamlit.io → **New app** → pick the repo, branch `main`, main file **`Home.py`**.
-3. Deploy, then record the public app URL in your submission form and in the project README (replace the placeholder below).
-
-**Live demo:** `ADD_PUBLIC_DEMO_URL_AFTER_DEPLOYMENT`
 
 ## Project structure
 
@@ -159,13 +151,12 @@ Real data from a pilot with consent; more subjects; teacher dashboard and overri
 
 ## Team
 
-Complete these entries with the actual registered team members and their real contributions before submission. Do not leave placeholders in the submitted README.
 
 | Member | Contribution |
 |---|---|
-| Team member 1 — add name | Add actual contribution |
-| Team member 2 — add name | Add actual contribution |
-| Team member 3 — add name | Add actual contribution |
+| Devineni Jagruthi | Add actual contribution |
+| Samiksha G | Add actual contribution |
+| Gajam Mania Kiran | Add actual contribution |
 
 ## AI-tool disclosure
 
@@ -187,17 +178,6 @@ Do not claim that AI tools were not used if they were used. Add the names of the
 - [ ] `python tests/test_app.py` passes in the final environment.
 - [ ] Screenshots and evaluation claims match the submitted version.
 - [ ] Submission is uploaded before the official deadline.
-
-## Suggested 3-minute demonstration
-
-1. **Problem and purpose (20 sec):** Explain why one teaching format does not suit every learner and introduce HI-03.
-2. **Student profile (30 sec):** Set text/audio/visual preferences, reading speed and preferred pace.
-3. **AI recommendation (35 sec):** Show the recommended format, similar-learner explanation, top-two alternatives and what-if controls.
-4. **Learning module (25 sec):** Switch between formats and demonstrate accessibility settings.
-5. **Adaptive quiz (30 sec):** Answer a few questions and show difficulty adapting with explanations and no timer.
-6. **Progress (20 sec):** Show skill-level progress, next steps and the downloadable report.
-7. **Teacher dashboard (20 sec):** Show class-level insights and the teacher override.
-8. **Honest limitation (20 sec):** State clearly that the current dataset and cohort are synthetic and that a real pilot with consent and accessibility testing is future work.
 
 ## Tech
 
