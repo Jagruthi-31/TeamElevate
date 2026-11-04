@@ -154,9 +154,9 @@ Real data from a pilot with consent; more subjects; teacher dashboard and overri
 
 | Member | Contribution |
 |---|---|
-| Devineni Jagruthi | Add actual contribution |
-| Samiksha G | Add actual contribution |
-| Gajam Mania Kiran | Add actual contribution |
+| Devineni Jagruthi | Project planning and coordination, Streamlit application development, UI design, system integration, accessibility features, and project documentation. |
+| Samiksha G | Machine learning model development using KNN, recommendation logic, model training, evaluation metrics, and performance analysis. |
+| Gajam Mania Kiran | Synthetic dataset generation, data preprocessing, feature engineering, adaptive quiz implementation, progress tracking, testing, and debugging. |
 
 ## AI-tool disclosure
 
