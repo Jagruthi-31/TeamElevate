@@ -95,8 +95,8 @@ The four learning formats each have one colour and one icon (text, audio, diagra
 ## Run it locally
 
 ```bash
-git clone YOUR_PUBLIC_GITHUB_REPOSITORY_URL
-cd LearnAble-AI
+git clone https://github.com/Jagruthi-31/TeamElevate
+cd TeamElevate
 python -m venv venv
 source venv/bin/activate          # Windows: venv\Scripts\activate
 pip install -r requirements.txt
@@ -116,7 +116,7 @@ The repository intentionally omits a version-sensitive serialized model. On firs
 ## Project structure
 
 ```
-LearnAble-AI/
+TeamElevate/
 ├── Home.py                    # landing page
 ├── pages/                     # 1_Student_Profile, 2_AI_Recommendations,
 │                              # 3_Learning_Module, 4_Quiz, 5_Progress,
@@ -136,7 +136,7 @@ LearnAble-AI/
 │   ├── app_helpers.py         # model loading, session state
 │   └── evaluate.py            # evaluation script
 ├── data/student_data.csv      # SIMULATED dataset
-├── models/                    # saved model + evaluation_results.json
+├── models/                    # evaluation_results.json
 ├── tests/test_app.py          # smoke tests
 ├── tools/make_backgrounds.py  # generates the background artwork (optional)
 ├── static/img/                # generated background images
