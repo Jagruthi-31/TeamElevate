@@ -1,0 +1,20 @@
+[theme]
+base = "light"
+primaryColor = "#3A3FD8"
+backgroundColor = "#F4F5FB"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#15173D"
+font = "Figtree"
+baseRadius = "0.75rem"
+showSidebarBorder = true
+
+[[theme.fontFaces]]
+family = "Figtree"
+url = "app/static/fonts/figtree-latin-wght-normal.woff2"
+weight = "300-900"
+
+[server]
+enableStaticServing = true
+
+[client]
+toolbarMode = "minimal"
